@@ -62,8 +62,6 @@ public struct Postmark: PostmarkProvider {
             default:
                 throw PostmarkError.unableToSendEmail
             }
-            
-            return response
         }
         
     }
